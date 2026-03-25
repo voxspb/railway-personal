@@ -7,4 +7,4 @@ if ! command -v openclaw >/dev/null 2>&1; then
 fi
 
 # Run gateway
-openclaw gateway --port "$PORT" --bind auto --allow-unconfigured
+openclaw gateway --port "$PORT" --bind lan --allow-unconfigured
