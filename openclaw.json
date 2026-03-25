@@ -2,10 +2,19 @@
   "meta": {
     "lastTouchedVersion": "2026.3.13"
   },
+  "auth": {
+    "profiles": {
+      "openai:default": {
+        "provider": "openai",
+        "mode": "api_key"
+      }
+    }
+  },
   "agents": {
     "defaults": {
       "workspace": "/app/openclaw-personal/workspace",
-      "compaction": { "mode": "safeguard" }
+      "compaction": { "mode": "safeguard" },
+      "model": { "primary": "openai/gpt-4o-mini" }
     },
     "list": [
       {
@@ -20,7 +29,7 @@
       "dmPolicy": "pairing",
       "groupPolicy": "allowlist",
       "streaming": "partial",
-      "botToken": "8699036324:AAFK4a-8XQA5MwngkrdeuMMBccnOzQvzmJs"
+      "botToken": "__TELEGRAM_BOT_TOKEN__"
     }
   },
   "session": {
