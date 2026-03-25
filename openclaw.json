@@ -29,7 +29,7 @@
       "dmPolicy": "pairing",
       "groupPolicy": "allowlist",
       "streaming": "partial",
-      "botToken": "8699036324:AAFK4a-8XQA5MwngkrdeuMMBccnOzQvzmJs"
+      "botToken": "__TELEGRAM_BOT_TOKEN__"
     }
   },
   "session": {
@@ -37,7 +37,7 @@
   },
   "gateway": {
     "mode": "local",
-    "bind": "auto"
+    "bind": "lan"
   },
   "tools": {
     "profile": "messaging"
