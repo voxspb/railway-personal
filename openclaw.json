@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.13"
+  },
+  "agents": {
+    "defaults": {
+      "workspace": "/app/openclaw-personal/workspace",
+      "compaction": { "mode": "safeguard" }
+    },
+    "list": [
+      {
+        "id": "personal",
+        "model": { "primary": "openai/gpt-4o-mini" }
+      }
+    ]
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "groupPolicy": "allowlist",
+      "streaming": "partial",
+      "botToken": "8699036324:AAFK4a-8XQA5MwngkrdeuMMBccnOzQvzmJs"
+    }
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "gateway": {
+    "mode": "local",
+    "bind": "auto"
+  },
+  "tools": {
+    "profile": "assistant"
+  }
+}
