@@ -40,6 +40,6 @@
     "bind": "auto"
   },
   "tools": {
-    "profile": "assistant"
+    "profile": "messaging"
   }
 }
