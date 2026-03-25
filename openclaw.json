@@ -41,6 +41,11 @@
     "auth": {
       "mode": "token",
       "token": "canvas_5b2f8e8a3f2b4e7fb2d0d9e7a91a4c6f"
+    },
+    "controlUi": {
+      "allowedOrigins": [
+        "https://railway-personal-production.up.railway.app"
+      ]
     }
   },
   "tools": {
