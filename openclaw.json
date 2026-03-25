@@ -45,7 +45,8 @@
     "controlUi": {
       "allowedOrigins": [
         "https://railway-personal-production.up.railway.app"
-      ]
+      ],
+      "dangerouslyDisableDeviceAuth": true
     }
   },
   "tools": {
