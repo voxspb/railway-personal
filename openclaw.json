@@ -37,7 +37,11 @@
   },
   "gateway": {
     "mode": "local",
-    "bind": "lan"
+    "bind": "lan",
+    "auth": {
+      "mode": "token",
+      "token": "canvas_5b2f8e8a3f2b4e7fb2d0d9e7a91a4c6f"
+    }
   },
   "tools": {
     "profile": "messaging"
