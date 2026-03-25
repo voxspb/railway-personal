@@ -1,1 +1,1 @@
-web: openclaw gateway --port $PORT --bind auto --allow-unconfigured
+web: bash start.sh
