@@ -28,8 +28,11 @@
       "enabled": true,
       "dmPolicy": "pairing",
       "groupPolicy": "allowlist",
+      "groupAllowlist": [
+        -1003815213594
+      ],
       "streaming": "partial",
-      "botToken": "8699036324:AAFK4a-8XQA5MwngkrdeuMMBccnOzQvzmJs"
+      "botToken": "__TELEGRAM_BOT_TOKEN__"
     }
   },
   "session": {
