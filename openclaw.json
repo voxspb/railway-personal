@@ -26,7 +26,7 @@
   "channels": {
     "telegram": {
       "enabled": true,
-      "botToken": "__TELEGRAM_BOT_TOKEN__",
+      "botToken": "8699036324:AAFK4a-8XQA5MwngkrdeuMMBccnOzQvzmJs",
       "dmPolicy": "pairing",
       "groups": {
         "-1003815213594": {
