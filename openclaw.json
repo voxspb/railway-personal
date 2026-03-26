@@ -26,13 +26,15 @@
   "channels": {
     "telegram": {
       "enabled": true,
+      "botToken": "__TELEGRAM_BOT_TOKEN__",
       "dmPolicy": "pairing",
-      "groupPolicy": "allowlist",
-      "groupAllowlist": [
-        -1003815213594
-      ],
-      "streaming": "partial",
-      "botToken": "__TELEGRAM_BOT_TOKEN__"
+      "groups": {
+        "-1003815213594": {
+          "requireMention": false,
+          "allowFrom": ["tg:805101340"]
+        }
+      },
+      "streaming": "partial"
     }
   },
   "session": {
